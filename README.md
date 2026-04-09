@@ -44,7 +44,7 @@
 
 ```
 employee_leave_management/
-├── backend/
+├── server/
 │   ├── config/
 │   │   └── db.js
 │   ├── middleware/
@@ -57,7 +57,7 @@ employee_leave_management/
 │   ├── .env
 │   ├── package.json
 │   └── server.js
-├── frontend/
+├── client/
 │   ├── public/
 │   │   └── index.html
 │   ├── src/
