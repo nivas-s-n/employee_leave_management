@@ -115,7 +115,7 @@ cd employee-leave-management
 ### 2️⃣ Backend Setup
 
 ```bash
-cd backend
+cd server
 npm install
 npm run dev
 ```
@@ -123,7 +123,7 @@ npm run dev
 ### 3️⃣ Frontend Setup
 
 ```bash
-cd frontend
+cd client
 npm install
 npm start
 ```
