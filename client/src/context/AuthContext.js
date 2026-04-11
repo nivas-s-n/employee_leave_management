@@ -10,7 +10,6 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Clear session on page reload/refresh so the user is forced to the login page
     localStorage.removeItem('token');
     localStorage.removeItem('user');
     setUser(null);
